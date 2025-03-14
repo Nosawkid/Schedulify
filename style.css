@@ -41,3 +41,22 @@ nav
     border-bottom:2px double #003366 ;
     width: 70%;
 }
+
+
+@media  (max-width:650px) {
+    #sport-desc h2 
+    {
+        font-size: 50px;
+    }
+}
+@media  (max-width:480px) {
+    #sport-desc h2 
+    {
+        font-size: 30px;
+    }
+
+    #sport-desc p 
+    {
+        font-size: 20px;
+    }
+}
